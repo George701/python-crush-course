@@ -37,6 +37,9 @@ print('Apples' in fruits_set)
 #  Add to set
 fruits_set.add('Grape')
 print(fruits_set)
+# It will not gonna add existing values
+fruits_set.add('Apples')
+print(fruits_set)
 
 # Remove from set
 fruits_set.remove('Grape')
